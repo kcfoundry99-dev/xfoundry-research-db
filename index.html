@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Foundry 研究資料庫</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0f;
+            --card: #12121a;
+            --gold: #d4a574;
+            --text: #fff;
+            --muted: #6a6a7a;
+        }
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+        }
+        .card {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+        .tag {
+            background: #1a1a24;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            color: var(--muted);
+        }
+        .tag-gold {
+            background: rgba(212, 165, 116, 0.15);
+            color: var(--gold);
+        }
+        .section-title {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--muted);
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body class="p-6">
+    <header class="mb-8">
+        <h1 class="text-2xl font-semibold mb-2">X Foundry 研究資料庫</h1>
+        <p class="text-[var(--muted)]">機器人手臂與 AI 驅動之建築預鑄及 3D 列印技術</p>
+    </header>
+
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3" id="content">
+        <!-- Research -->
+        <div class="card">
+            <div class="section-title">最新研究</div>
+            <div class="space-y-4" id="research"></div>
+        </div>
+
+        <!-- Materials -->
+        <div class="card">
+            <div class="section-title">材料研究</div>
+            <div class="space-y-4" id="materials"></div>
+        </div>
+
+        <!-- Cases -->
+        <div class="card">
+            <div class="section-title">國際案例</div>
+            <div class="space-y-3" id="cases"></div>
+        </div>
+
+        <!-- Architects -->
+        <div class="card">
+            <div class="section-title">建築師與事務所</div>
+            <div class="space-y-3" id="architects"></div>
+        </div>
+
+        <!-- Suggestions -->
+        <div class="card md:col-span-2">
+            <div class="section-title">建議加強項目</div>
+            <div class="flex flex-wrap gap-2" id="suggestions"></div>
+        </div>
+    </div>
+
+    <script>
+        const db = {
+            research: {
+                institutions: [
+                    {name: "ETH Zürich", topic: "Robotic Fabrication", year: "2024"},
+                    {name: "MIT Media Lab", topic: "Autonomous Construction Robots", year: "2025"},
+                    {name: "Gramazio Kohler", topic: "ROB - 機器人砌磚", year: "2024"},
+                    {name: "TU Delft", topic: "Robotic Assembly", year: "2025"}
+                ],
+                ai: ["Generative Design", "Predictive Manufacturing", "Computer Vision QC", "Digital Twin"]
+            },
+            materials: [
+                {name: "地聚合物", properties: ["低碳排", "快速凝固", "耐高溫"], advantages: "CO2 減少 80%"},
+                {name: "鋁合金", properties: ["SLM", "DED"], applications: "輕量結構"},
+                {name: "不鏽鋼", properties: ["SLM"], applications: "耐腐蝕"},
+                {name: "鈦合金", properties: ["DED"], applications: "高強度"}
+            ],
+            cases: [
+                {name: "The Arc", designer: "Ai Build", location: "倫敦", year: "2023"},
+                {name: "BOD", designer: "Apis Cor", location: "杜拜", year: "2022"},
+                {name: "Bridge", designer: "MX3D", location: "阿姆斯特丹", year: "2024"},
+                {name: "Project Milestone", institution: "TU Eindhoven", goal: "5棟3D列印住宅"}
+            ],
+            architects: [
+                {name: "Gramazio + Kohler", expertise: "機器人砌磚"},
+                {name: "Achim Menges", expertise: "機器編織"},
+                {name: "Zaha Hadid Architects", expertise: "3D列印"},
+                {name: "Foster + Partners", expertise: "輕量化結構"},
+                {name: "BIG", expertise: "AI空間優化"}
+            ],
+            suggestions: [
+                "經濟性分析", "法規標準", "供應鏈", "人才培育", 
+                "專利分析", "環境影響評估", "失敗案例分析"
+            ]
+        };
+
+        // Render Research
+        document.getElementById('research').innerHTML = db.research.institutions.map(r => `
+            <div>
+                <div class="font-medium text-sm">${r.name}</div>
+                <div class="text-xs text-[var(--muted)]">${r.topic}</div>
+                <span class="tag mt-1 inline-block">${r.year}</span>
+            </div>
+        `).join('') + `
+            <div class="pt-2">
+                <span class="tag tag-gold">AI: ${db.research.ai.join(", ")}</span>
+            </div>
+        `;
+
+        // Render Materials
+        document.getElementById('materials').innerHTML = db.materials.map(m => `
+            <div>
+                <div class="font-medium text-sm">${m.name}</div>
+                <div class="text-xs text-[var(--muted)]">${m.properties.join(" | ")}</div>
+                <div class="text-xs text-[var(--gold)] mt-1">${m.advantages || m.applications}</div>
+            </div>
+        `).join('');
+
+        // Render Cases
+        document.getElementById('cases').innerHTML = db.cases.map(c => `
+            <div class="flex justify-between items-center py-2 border-b border-[#1a1a24] last:border-0">
+                <div>
+                    <div class="font-medium text-sm">${c.name}</div>
+                    <div class="text-xs text-[var(--muted)]">${c.designer || c.institution}</div>
+                </div>
+                <span class="tag">${c.location || c.goal}</span>
+            </div>
+        `).join('');
+
+        // Render Architects
+        document.getElementById('architects').innerHTML = db.architects.map(a => `
+            <div class="flex justify-between items-center py-2 border-b border-[#1a1a24] last:border-0">
+                <div class="font-medium text-sm">${a.name}</div>
+                <span class="tag">${a.expertise}</span>
+            </div>
+        `).join('');
+
+        // Render Suggestions
+        document.getElementById('suggestions').innerHTML = db.suggestions.map(s => `
+            <span class="tag">${s}</span>
+        `).join('');
+    </script>
+</body>
+</html>

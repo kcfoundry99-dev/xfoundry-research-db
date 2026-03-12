@@ -1,0 +1,129 @@
+{
+  "title": "X Foundry 研究資料庫",
+  "subtitle": "機器人手臂與 AI 驅動之建築預鑄及 3D 列印技術",
+  "lastUpdated": "2026-03-12",
+  "sections": {
+    "research": {
+      "title": "最新相關研究",
+      "items": [
+        {
+          "category": "機器人手臂建築應用",
+          "entries": [
+            {"institution": "ETH Zürich", "topic": "Robotic Fabrication in Architecture", "year": "2024", "summary": "機器人協作建造系統"},
+            {"institution": "MIT Media Lab", "topic": "Autonomous Construction Robots", "year": "2025", "summary": "自主建築機器人演算法"},
+            {"institution": "Gramazio Kohler Research", "topic": "ROB", "year": "2024", "summary": "機器人砌磚與組裝"},
+            {"institution": "TU Delft", "topic": "Robotic Assembly of Prefabricated Elements", "year": "2025", "summary": "預鑄構件機器人組裝"}
+          ]
+        },
+        {
+          "category": "AI 輔助設計與製造",
+          "entries": [
+            {"topic": "Generative Design", "status": "成熟應用"},
+            {"topic": "Predictive Manufacturing", "status": "發展中"},
+            {"topic": "Computer Vision QC", "status": "成熟應用"},
+            {"topic": "Digital Twin", "status": "發展中"},
+            {"topic": "Reinforcement Learning", "status": "研究階段"}
+          ]
+        }
+      ]
+    },
+    "materials": {
+      "title": "材料研究",
+      "categories": [
+        {
+          "name": "地聚合物 (Geopolymer)",
+          "properties": ["低碳排", "快速凝固", "耐高溫", "廢料利用"],
+          "advantages": "CO2 排放減少 80%",
+          "applications": ["結構構件", "3D 列印", "防火結構", "永續營造"],
+          "researchInstitutions": ["UCL", "RMIT", "Apis Cor", "TU Delft", "NTU Singapore"]
+        },
+        {
+          "name": "金屬材料",
+          "types": [
+            {"metal": "鋁合金", "tech": "SLM, DED", "application": "輕量結構、外牆"},
+            {"metal": "不鏽鋼", "tech": "SLM", "application": "耐腐蝕構件"},
+            {"metal": "鈦合金", "tech": "DED", "application": "高強度組件"},
+            {"metal": "銅", "tech": "LMD", "application": "導熱結構"}
+          ]
+        }
+      ]
+    },
+    "cases": {
+      "title": "國際相關案例",
+      "built": [
+        {"name": "The Arc", "designer": "Ai Build", "tech": "3D列印鋼結構", "location": "倫敦", "year": "2023"},
+        {"name": "BOD", "designer": "Apis Cor", "tech": "3D列印混凝土", "location": "杜拜", "year": "2022"},
+        {"name": "Bridge", "designer": "MX3D", "tech": "3D列印不鏽鋼", "location": "阿姆斯特丹", "year": "2024"},
+        {"name": "住宅原型", "designer": "ICON", "tech": "3D列印混凝土", "location": "德州", "year": "2023"},
+        {"name": "Worlds Largest 3DP", "designer": "Winsun", "tech": "3D列印混凝土", "location": "杜拜", "year": "2023"}
+      ],
+      "ongoing": [
+        {"name": "Project Milestone", "institution": "TU Eindhoven", "goal": "5棟3D列印住宅社區"},
+        {"name": "3DCP Initiative", "institution": "Singapore HDB", "goal": "組合物社區"},
+        {"name": "Robotic Habitat", "institution": "MIT", "goal": "火星居住艙"}
+      ]
+    },
+    "design": {
+      "title": "與建築設計結合",
+      "methodologies": [
+        {
+          "name": "Performance-Driven Design",
+          "description": "效能導向設計",
+          "aspects": ["結構優化", "環境模擬", "參數化生成"]
+        },
+        {
+          "name": "DfMA",
+          "description": "Design for Manufacturing and Assembly",
+          "aspects": ["模組化設計", "可製造性評估", "組裝順序優化"]
+        },
+        {
+          "name": "Digital Fabrication Integration",
+          "description": "數位製造整合",
+          "aspects": ["BIM to Fabrication", "即時製造資訊回饋", "設計-製造一體化"]
+        }
+      ],
+      "tools": [
+        {"name": "Rhino + Grasshopper", "function": "參數化建模", "stage": "概念設計"},
+        {"name": "Autodesk Fusion 360", "function": "CAD/CAM整合", "stage": "細部設計"},
+        {"name": "SolidWorks", "function": "結構分析", "stage": "工程圖說"},
+        {"name": "Ansys", "function": "有限元素分析", "stage": "結構驗證"},
+        {"name": "KUKA|prc", "function": "機器人路徑規劃", "stage": "製造規劃"},
+        {"name": "Octopuss", "function": "3D列印優化", "stage": "列印規劃"}
+      ]
+    },
+    "architects": {
+      "title": "國際知名建築師與事務所",
+      "pioneers": [
+        {"name": "Gramazio + Kohler (ETH)", "expertise": "機器人砌磚", "works": "砌磚牆體研究"},
+        {"name": "Achim Menges", "expertise": "機器編織", "works": "HygroScope"},
+        {"name": "Zaha Hadid Architects", "expertise": "3D列印", "works": "實驗構築物"},
+        {"name": "Foster + Partners", "expertise": "輕量化結構", "works": "月球基地研究"},
+        {"name": "Skidmore, Owings & Merrill", "expertise": "高層BIM", "works": "多個超高層"}
+      ],
+      "aiApplications": [
+        {"firm": "Autodesk", "application": "Generative Design"},
+        {"firm": "BIG", "application": "AI空間優化"},
+        {"firm": "SHoP", "application": "自動化法規檢驗"},
+        {"firm": "KPF", "application": "參數化設計優化"}
+      ]
+    }
+  },
+  "suggestions": {
+    "additionalTopics": [
+      "經濟性分析 - 成本比較傳統 vs 機器人建造",
+      "法規標準 - 各國3D列印建築法規現況",
+      "供應鏈 - 設備供應商、材料供應商",
+      "人才培育 - 相關課程與訓練機構",
+      "專利分析 - 技術佈局與智財權",
+      "環境影響評估 - LCA生命週期分析",
+      "案例失敗分析 - 學習失敗經驗"
+    ],
+    "researchDirections": [
+      "人機協作模式 - 機器人與人工的最優分工",
+      "即時監控系統 - 品質控制與錯誤偵測",
+      "分散式製造 - 工地現場 vs 工廠製造",
+      "韌性設計 - 救災臨時建築、快速重建",
+      "太空建築 - 月球/火星建造可行性"
+    ]
+  }
+}
