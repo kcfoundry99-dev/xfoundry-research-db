@@ -15,195 +15,211 @@
 
 ---
 
-## 1. 最新相關研究
+## 1. 在台灣發展的優勢
 
-### 1.1 機器人手臂建築應用
+### 1.1 產業鏈優勢
 
-| 研究機構 | 主題 | 年份 | 連結 |
-|----------|-------|------|------|
-| ETH Zürich | Robotic Fabrication | 2024 | [ Gramazio Kohler Research](https://gramaziokohler.com) |
-| MIT Media Lab | Autonomous Construction | 2025 | [MIT Media Lab](https://www.media.mit.edu) |
-| TU Delft | Robotic Assembly | 2025 | [TU Delft](https://www.tudelft.nl) |
-| Carnegie Mellon | Robotic Brick | 2024 | [CMU](https://www.cmu.edu) |
-
-### 1.2 AI 輔助設計與製造
-
-| 技術 | 發展階段 | 來源 |
-|------|----------|------|
-| Generative Design | 成熟 | [Autodesk](https://autodesk.com) |
-| Digital Twin | 發展中 | [ANSYS](https://www.ansys.com) |
-| Reinforcement Learning | 研究中 | [DeepMind](https://deepmind.com) |
-
----
-
-## 2. 材料研究
-
-### 2.1 地聚合物 (Geopolymer)
-
-| 特性 | 數據 | 來源 |
+| 優勢 | 說明 | 連結 |
 |------|------|------|
-| 低碳排 | CO2減少80% | [UCL Research](https://www.ucl.ac.uk) |
-| 抗壓強度 | 60-100 MPa | [RMIT](https://www.rmit.edu.au) |
-| 耐高溫 | 1200°C | [TU Delft](https://www.tudelft.nl) |
+| 半導體與電子製造 | PCB、感測器製造能力強 | [工研院](https://www.itri.org.tw) |
+| 精密機械 | 工具機、自動化設備基礎扎實 | [機械公會](https://www.tami.org.tw) |
+| ICT 產業 | AI、軟體開發人才充沛 | [AI Academy](https://aiacademy.tw) |
+| 營建業 | 技術成熟、管理效率高 | [營建署](https://www.cpami.gov.tw) |
 
-**主要廠商**: [BASF](https://www.basf.com), [Apis Cor](https://apis-cor.com)
+### 1.2 地理與市場優勢
 
-### 2.2 金屬材料
-
-| 金屬 | 技術 | 成本 | 來源 |
-|------|------|------|------|
-| 鋁合金 | SLM | $150-300/kg | [Metal AM](https://metal-am.com) |
-| 不鏽鋼 | SLM | $200-400/kg | [voestalpine](https://www.voestalpine.com) |
-
----
-
-## 3. 國際相關案例
-
-### 3.1 已建成案例
-
-| 建築 | 設計者 | 技術 | 年份 | 連結 |
-|------|--------|------|------|------|
-| The Arc | Ai Build | 3D鋼結構 | 2023 | [Ai Build](https://www.aibuild.com) |
-| BOD | Apis Cor | 3D混凝土 | 2022 | [Apis Cor](https://apis-cor.com) |
-| Bridge | MX3D | 3D不鏽鋼 | 2024 | [MX3D](https://mx3d.com) |
-| 住宅 | ICON | 3D混凝土 | 2023 | [ICON](https://icon-build.com) |
-
-### 3.2 進行中計畫
-
-| 計畫 | 機構 | 連結 |
-|------|------|------|
-| Project Milestone | TU Eindhoven | [TUe](https://www.tue.nl) |
-| 3DCP Initiative | Singapore HDB | [HDB](https://www.hdb.gov.sg) |
-| Robotic Habitat | MIT | [MIT](https://spaceexploration.mit.edu) |
-
-### 3.3 失敗/問題案例
-
-| 案例 | 問題 | 教訓 | 來源 |
-|------|------|------|------|
-| Dubai Office | 結構裂縫 | 材料固化時間不足 | [The National](https://www.thenationalnews.com) |
-| Winsun住宅 | 精度問題 | 層間接縫處理 | [ArchDaily](https://www.archdaily.com) |
-
----
-
-## 4. 經濟性分析
-
-### 4.1 成本比較 (100坪住宅)
-
-| 項目 | 傳統 | 3D列印 | 節省 |
-|------|------|---------|------|
-| 人工 | 150萬 | 80萬 | 47% |
-| 模板 | 50萬 | 5萬 | 90% |
-| 工期 | 6個月 | 2個月 | 67% |
-
-**數據來源**: [Wohlers Report](https://wohlersassociates.com), [McKinsey](https://www.mckKinsey.com)
-
-### 4.2 設備成本
-
-| 設備 | 價格 | 來源 |
-|------|------|------|
-| ICON 3D Printer | $50K-500K | [ICON](https://icon-build.com) |
-| KUKA Robot | $30K-150K | [KUKA](https://www.kuka.com) |
-| MX3D Metal | $200K-2M | [MX3D](https://mx3d.com) |
-
----
-
-## 5. 法規標準
-
-### 5.1 各國法規
-
-| 國家 | 法規 | 連結 |
-|------|------|------|
-| 杜拜 | 3D Printing Building Code | [DCD](https://www.dcd.gov.ae) |
-| 荷蘭 | Dutch Building Decree | [Rijksoverheid](https://www.rijksoverheid.nl) |
-| 德國 | DIN Standards | [DIN](https://www.din.de) |
-| 美國 | ASTM F42 | [ASTM](https://www.astm.org) |
-
-### 5.2 台灣現況
-
-- 營建署正在研擬相關規範
-- 內政部建築研究所進行試點計畫
-
----
-
-## 6. 供應鏈
-
-### 6.1 設備供應商
-
-| 公司 | 產品 | 網站 |
-|------|------|------|
-| ICON | 混凝土3D列印 | icon-build.com |
-| Apis Cor | 混凝土3D列印 | apis-cor.com |
-| MX3D | 金屬3D列印 | mx3d.com |
-| Ai Build | AI建造系統 | aibuild.com |
-| KUKA | 工業機器人 | kuka.com |
-| ABB | 協作機器人 | new.abb.com |
-| COBOD | 混凝土3D列印 | cobod.com |
-
-### 6.2 材料供應商
-
-| 類型 | 供應商 |
-|------|--------|
-| 地聚合物 | [BASF](https://www.basf.com), [Solvay](https://www.solvay.com) |
-| 粉末冶金 | [Carpenter Additive](https://www.carpenteradditive.com) |
-
-### 6.3 軟體工具
-
-| 用途 | 軟體 |
+| 優勢 | 說明 |
 |------|------|
-| 參數化設計 | [Rhino + Grasshopper](https://www.rhino3d.com) |
-| CAM | [Fusion 360](https://www.autodesk.com/products/fusion-360) |
-| 機器人規劃 | [KUKA|prc](https://robotprc.no-ip.org) |
+| 地震帶 | 需要抗震、快速建造技術 |
+| 都會區密集 | 高層建築需求大、土地昂貴 |
+| 島嶼物流 | 預鑄模組化適合輸出 |
+| 氣候潮濕 | 快速乾燥材料有優勢 |
+
+### 1.3 政策支持
+
+| 政策 | 內容 |
+|------|------|
+| 內政部建築研究所 | 推動建築科技創新 |
+| 國發會 | 亞洲矽谷、智慧城鄉計畫 |
+| 經濟部 | AIoT、自動化補助 |
+| 營建署 | 預鑄建築法規鬆綁 |
 
 ---
 
-## 7. 建築師與事務所
+## 2. X Foundry 的定位與發展方向
 
-### 7.1 機器人建造先驅
+### 2.1 KC 的獨特優勢
 
-| 事務所 | 專長 | 網站 |
-|--------|------|------|
-| Gramazio + Kohler | 機器人砌磚 | gramaziokohler.com |
-| Achim Menges | 機器編織 |achim-menges.com |
-| Zaha Hadid Architects | 3D列印 | zaha-hadid.com |
-| Foster + Partners | 輕量化 | fosterandpartners.com |
+| 背景 | 連結應用 |
+|------|----------|
+| **國際經驗** (Eisenman, MVRDV, 大元) | 引入國際最新技術與設計思維 |
+| **實際作品** (台積電、故宮南院) | 了解業主需求與營造執行 |
+| **科技整合** | AI + 製造 + 設計一體化 |
+| **獎項肯定** | 建立品牌公信力 |
 
-### 7.2 AI設計應用
+### 2.2 X Foundry 核心能力
 
-| 事務所 | 應用 |
-|--------|------|
-| Autodesk | Generative Design |
-| BIG | AI空間優化 |
-| SHoP | 自動化法規 |
+```
+┌─────────────────────────────────────────────┐
+│              X Foundry                     │
+├─────────────────────────────────────────────┤
+│  設計 (Design)    ← 建築專業 + 參數化設計  │
+│       ↓                                    │
+│  製造 (Fabricate) ← 機器人手臂 + 3D列印    │
+│       ↓                                    │
+│  品管 (Quality)   ← AI視覺 + 數據分析     │
+└─────────────────────────────────────────────┘
+```
 
----
+### 2.3 發展策略
 
-## 8. 人才培育
-
-### 8.1 國際課程
-
-| 學校 | 課程 | 連結 |
+| 階段 | 目標 | 時間 |
 |------|------|------|
-| ETH Zürich | MAS Digital Fabrication | [ETH](https://ethz.ch) |
-| MIT | Computation for Architecture | [MIT](https://mit.edu) |
-| TU Delft | MSc Architecture | [TU Delft](https://tudelft.nl) |
-| IAAC | Masters in Robotics | [IAAC](https://iaac.net) |
-
-### 8.2 專業認證
-
-- [Autodesk Certified](https://www.autodesk.com/certification)
-- [KUKA Robotics](https://www.kuka.com)
+| 短期 | 建立機器人建造實驗室 | 1年 |
+| 中期 | 取得政府與開發商合作案 | 2-3年 |
+| 長期 | 輸出技術到國際 | 5年 |
 
 ---
 
-## 資料來源
+## 3. 具體做法建議
 
-1. **學術資料庫**: [Google Scholar](https://scholar.google.com), [Web of Science](https://webofscience.com)
-2. **產業報告**: [Wohlers Associates](https://wohlersassociates.com), [SmarTech](https://smartechanalysis.com)
-3. **協會**: [ACADIA](https://www.acadia.org), [ROB|ARCH](https://www.robarch.org)
-4. **新聞**: [The B1M](https://www.theb1m.com), [ArchDaily](https://www.archdaily.com), [Dezeen](https://www.dezeen.com)
+### 3.1 技術發展路徑
+
+1. **Phase 1: 實驗室建置**
+   - 導入 KUKA 或 ABB 機器人手臂
+   - 建立 3D 列印混凝土測試平台
+   - 與材料實驗室合作開發配方
+
+2. **Phase 2: 示範案開發**
+   - 小型住宅或構件試作
+   - 申請使用執照並收集數據
+   - 記錄造價與工期
+
+3. **Phase 3: 產業化**
+   - 與營造廠策略聯盟
+   - 開發標準化模組
+   - 申請專利與認證
+
+### 3.2 應用場景建議
+
+| 類型 | 優先順序 | 說明 |
+|------|----------|------|
+| 緊急住宅 | ⭐⭐⭐ | 災後快速重建 |
+| 社會住宅 | ⭐⭐⭐ | 降低成本、提高效率 |
+| 特色民宿 | ⭐⭐ | 設計彈性、差異化 |
+| 商業建築 | ⭐⭐ | 大空間快速建造 |
+
+### 3.3 合作夥伴建議
+
+| 類型 | 潛在夥伴 |
+|------|-----------|
+| 設備 | 廣運機械、研華、盟立 |
+| 材料 | 台泥、亞泥、固化劑廠商 |
+| 學術 | 台大土木、交大建築、成大 |
+| 政府 | 營建署、內政部建研所 |
+| 開發商 | 潤泰、興富發、冠德 |
+
+---
+
+## 4. 與國際接軌
+
+### 4.1 國際組織參與
+
+| 組織 | 參與方式 |
+|------|----------|
+| ACADIA | 發表研究論文 |
+| ROB|ARCH | 參加工作營 |
+| IAAC | 洽談合作 |
+| World Congress | 3D列印建築論壇 |
+
+### 4.2 技術對標
+
+| 對標對象 | 學習重點 |
+|----------|----------|
+| ICON | 商業模式與 Scaling |
+| Apis Cor | 移動式設備設計 |
+| MX3D | 金屬列印技術 |
+| Gramazio Kohler | 學術研究方法 |
+
+---
+
+## 5. 研究與個案引用
+
+### 5.1 台灣相關研究
+
+| 機構 | 研究主題 |
+|------|----------|
+| 成大建築 | 3D列印建築結構 |
+| 台大土木 | 預鑄構件自動化 |
+| 交大建築 | 參數化設計教學 |
+| 工研院 | 營造自動化 |
+
+### 5.2 國際案例參考
+
+| 案例 | 適用於台灣 |
+|------|-------------|
+| Project Milestone (荷蘭) | 社會住宅 |
+| Singapore HDB | 都更危老 |
+| ICON 德州住宅 | 緊急住宅 |
+
+---
+
+## 6. SWOT 分析
+
+| 優勢 (S) | 劣勢 (W) |
+|----------|----------|
+| 國際經驗與人脈 | 初期投資成本高 |
+| 設計與製造整合 | 缺乏量產規模 |
+| 品牌與獎項 | 法規不明確 |
+
+| 機會 (O) | 威脅 (T) |
+|----------|----------|
+| 政策支持 | 國際大廠競爭 |
+| 地震救災需求 | 傳統營造抵制 |
+| 都更商機 | 材料認證期長 |
+
+---
+
+## 7. 下一步行動建議
+
+### 立即行動 (1-3個月)
+
+- [ ] 參訪 ICON 或 Apis Cor 總部
+- [ ] 與工研院、營建署會面
+- [ ] 撰寫研究計畫申請補助
+
+### 短期目標 (6個月)
+
+- [ ] 機器人實驗室籌設
+- [ ] 材料配方開發
+- [ ] 招募機電整合人才
+
+### 中期目標 (1-2年)
+
+- [ ] 完成第一個示範案
+- [ ] 發表國際論文
+- [ ] 建立供應鏈夥伴
+
+---
+
+## 8. 資料來源
+
+### 台灣機構
+
+- [內政部營建署](https://www.cpami.gov.tw)
+- [工研院](https://www.itri.org.tw)
+- [國發會](https://www.ndc.gov.tw)
+- [台灣建築中心](https://www.tabc.org.tw)
+
+### 國際對標
+
+- [ICON](https://icon-build.com)
+- [Apis Cor](https://apis-cor.com)
+- [MX3D](https://mx3d.com)
+- [Gramazio Kohler](https://gramaziokohler.com)
 
 ---
 
 *最後更新: 2026-03-12*
 *維護者: X Foundry Research Team*
-*版本: 2.1*
+*版本: 3.0*
